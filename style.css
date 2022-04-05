@@ -102,7 +102,7 @@ div.video{
 background-color:#1A5C38;
 position:relative;
   margin-bottom: 50px;
-  margin:0px 20px 30px 20px;
+  margin:0px 20px 2px 20px;
   padding: 20px;
   padding-bottom: 50%;
   
@@ -167,7 +167,7 @@ footer{
     
 }
 .elemento::after{
-    content: ' \2714';
+    content: '\00A0\2714';
 
     
 }
@@ -181,6 +181,11 @@ footer{
     color:#1A5C38;
     font-weight:bold;
     text-decoration:none;
+
+}
+.elemento:hover{
+    text-decoration:underline;
+
 }
 li >a{
     text-decoration: none;
