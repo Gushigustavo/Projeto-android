@@ -98,15 +98,22 @@ h3{
     
 }
 div.video{
-  margin:auto;
-  width:86vw;
-  margin:0px 10px;
-  background-color:#1A5C38;
-  position:relative;
-  padding-bottom:50%;
+
+background-color:#1A5C38;
+position:relative;
+  margin-bottom: 50px;
+  margin:0px 20px 30px 20px;
+  padding: 20px;
+  padding-bottom: 50%;
+  
+
 }
 .video > iframe{
   position:absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 
   
 }
